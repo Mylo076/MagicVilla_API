@@ -3,7 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicVilla_VillaAPI", "MagicVilla_VillaAPI\MagicVilla_VillaAPI.csproj", "{B7549566-9904-4F24-99A0-BFF7ABF33EA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_VillaAPI", "MagicVilla_VillaAPI\MagicVilla_VillaAPI.csproj", "{B7549566-9904-4F24-99A0-BFF7ABF33EA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_Web", "MagicVilla_Web\MagicVilla_Web.csproj", "{35B01D61-5EF3-45DA-B7F8-49C589AF7FE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicVilla_Utility", "MagicVilla_Utility\MagicVilla_Utility.csproj", "{341EC230-D846-4F7C-A0CC-E923E4686B10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6D00F850-EC21-4632-B0A9-58630F2989F3}"
+	ProjectSection(SolutionItems) = preProject
+		Other.txt = Other.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,14 @@ Global
 		{B7549566-9904-4F24-99A0-BFF7ABF33EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7549566-9904-4F24-99A0-BFF7ABF33EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7549566-9904-4F24-99A0-BFF7ABF33EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B01D61-5EF3-45DA-B7F8-49C589AF7FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B01D61-5EF3-45DA-B7F8-49C589AF7FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B01D61-5EF3-45DA-B7F8-49C589AF7FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B01D61-5EF3-45DA-B7F8-49C589AF7FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341EC230-D846-4F7C-A0CC-E923E4686B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341EC230-D846-4F7C-A0CC-E923E4686B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341EC230-D846-4F7C-A0CC-E923E4686B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341EC230-D846-4F7C-A0CC-E923E4686B10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

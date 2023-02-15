@@ -1,0 +1,3 @@
+- VillaNumber inteso come numero della stanza
+- Per le Partial Views si utilizza l'underscore. Ex -> _Notifications
+- Se ci sono 2 HttpGet senza specificare il Route, Swagger non riesce a riconoscere quale delle 2 usare e quindi va in errore.
